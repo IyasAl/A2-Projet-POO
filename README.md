@@ -25,11 +25,15 @@ Ce jeu propose 2 extensions :
 - Gestion d’une grille torique. Les cellules placées aux extrémités de la grille sont adjacentes ; en d’autres termes les cellules en colonne 0 sont voisines des cellules en colonne N−1, avec N le nombre de colonnes. Le principe est similaire en ligne.
 - Introduction de cellules obstacle. L’état des cellules obstacles n’évolue pas au cours de l’exécution. Ces dernières possèdent un état vivant ou mort. Modifiez votre code, sans altérer le fonctionnement de base.
 
+## Prérequis
+
+- SFML 2.5+ (ou récent)
+- C++17 ou récent
+- Un compilateur qui supporte C++17
+
 ## Installation
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/VotreNomUtilisateur/MonProjet.git
-
-
-./game_of_life input.txt 100
+   ./game_of_life input.txt 100
 
